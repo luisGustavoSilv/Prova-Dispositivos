@@ -38,7 +38,7 @@
         android:id="@+id/tv_Integrantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="12dp"
         android:text="Luis Gustavo Santana da Silva-200028624"
         android:textSize="15sp"
@@ -48,13 +48,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="325dp"
+        android:layout_height="22dp"
         android:layout_marginBottom="393dp"
-        android:text="Samuel jackson-200029824"
+        android:text="Samuel Pereira dos Santos Santana-200028256"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tv_Integrantes"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="@+id/tv_Integrantes"
         app:layout_constraintTop_toBottomOf="@+id/tv_Integrantes">
 
