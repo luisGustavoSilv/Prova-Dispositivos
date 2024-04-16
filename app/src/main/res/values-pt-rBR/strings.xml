@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prova Trilhas</string>
+    <string name="tv_EscolhaUmaAcao">Escolha uma Acao</string>
+    <string name="bt_RegistrarTrilha">Registrar Trilha</string>
+    <string name="bt_Compartilhar">Compartilhar Trilha</string>
+    <string name="bt_Gerenciar">Gerenciar Trilha</string>
+    <string name="bt_Configuracao">Configuracao</string>
+    <string name="bt_Sobre">Sobre</string>
+    <string name="tv_SejaBemVindo">Seja Bem-Vindo!!</string>
+    <string name="et_local">Local</string>
+    <string name="et_dia">Dia</string>
+    <string name="et_periodo">Periodo</string>
+    <string name="bt_Registrar">Registrar</string>
+    <string name="bt_Sair">Sair</string>
+    <string name="tv_PrimeiraVersao">Primeira Versao do app de trilhas</string>
+    <string name="tv_Componentes">Componentes da equipe</string>
+    <string name="bt_Converter">Converter</string>
+    <string name="bt_sairConfiguracao">Sair</string>
+</resources>

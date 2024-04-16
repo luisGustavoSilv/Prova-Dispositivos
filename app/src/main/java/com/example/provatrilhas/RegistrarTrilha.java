@@ -27,8 +27,8 @@ public class RegistrarTrilha extends AppCompatActivity {
         et_periodo = findViewById(R.id.et_periodo);
         bt_registrar = findViewById(R.id.bt_Registrar);
         bt_sair = findViewById(R.id.bt_Sair);
-        bt_mostrarRegistro = findViewById(R.id.bt_MostrarRegistro);
-        tv_mostrarRegistro(findViewById(R.id.tv_registro))
+
+
 
 
         bt_registrar.setOnClickListener(new View.OnClickListener() {
@@ -37,18 +37,13 @@ public class RegistrarTrilha extends AppCompatActivity {
                 dia = et_dia.getText().toString();
                 local = et_local.getText().toString();
                 periodo = et_periodo.getText().toString();
+
             }
         });
         bt_sair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
-            }
-        });
-        bt_mostrarRegistro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
             }
         });
     }

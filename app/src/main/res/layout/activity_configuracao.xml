@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bt_KmHr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40C4FF"
+    tools:context=".Configuracao">
+
+    <EditText
+        android:id="@+id/et_KmHr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="177dp"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="km/hr"
+        app:layout_constraintBottom_toTopOf="@+id/tv_mS"
+        app:layout_constraintStart_toStartOf="@+id/tv_mS"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_mS"
+        android:layout_width="210dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_Converter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_KmHr" />
+
+    <Button
+        android:id="@+id/bt_Converter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="360dp"
+        android:backgroundTint="#FF9800"
+        android:text="Converter"
+        android:textColor="@color/preto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_mS"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mS" />
+
+    <Button
+        android:id="@+id/bt_sairConfiguracao"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:text="sair"
+        android:textColor="@color/preto"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

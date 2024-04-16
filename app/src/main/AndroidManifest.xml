@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ProvaTrilhas"
         tools:targetApi="31">
         <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".Configuracao"
+            android:exported="false" />
+        <activity
             android:name=".Creditos"
             android:exported="false" />
         <activity

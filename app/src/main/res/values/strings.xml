@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Prova Trilhas</string>
+    <string name="app_name">Tail Test</string>
+    <string name="tv_EscolhaUmaAcao">Choose an action</string>
+    <string name="bt_RegistrarTrilha">Register Track</string>
+    <string name="bt_Compartilhar">Share Track</string>
+    <string name="bt_Gerenciar">Manage Track</string>
+    <string name="bt_Configuracao">settings</string>
+    <string name="bt_Sobre">About</string>
+    <string name="tv_SejaBemVindo">Welcome!!</string>
+    <string name="et_local">Local</string>
+    <string name="et_dia">Day</string>
+    <string name="et_periodo">Period</string>
+    <string name="bt_Registrar">Register</string>
+    <string name="bt_Sair">Leave</string>
+    <string name="tv_PrimeiraVersao">First version of the trails app</string>
+    <string name="tv_Componentes">Team components</string>
+    <string name="bt_Converter">To convert</string>
+    <string name="bt_sairConfiguracao">Leave</string>
 </resources>

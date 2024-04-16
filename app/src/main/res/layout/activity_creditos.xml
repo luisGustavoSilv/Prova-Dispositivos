@@ -2,9 +2,63 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/bt_KmHr"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#40C4FF"
     tools:context=".Creditos">
+
+    <TextView
+        android:id="@+id/tv_PrimeiraVersao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="166dp"
+        android:layout_marginBottom="54dp"
+        android:textColor="#FC4D17E4"
+        android:text="Primeira Versao do app de trilhas"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_Componentes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Componentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="12dp"
+        android:text="Componentes da equipe:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_Integrantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_PrimeiraVersao" />
+
+    <TextView
+        android:id="@+id/tv_Integrantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="12dp"
+        android:text="Luis Gustavo Santana da Silva-200028624"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Componentes" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="393dp"
+        android:text="Samuel jackson-200029824"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_Integrantes"
+        app:layout_constraintStart_toStartOf="@+id/tv_Integrantes"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Integrantes">
+
+    </TextView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
